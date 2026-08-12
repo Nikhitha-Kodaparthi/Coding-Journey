@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int X, Y, D;
+        cin >> X >> Y >> D;
+
+        if (abs(X - Y) <= D)
+            cout << "YES\n";
+        else
+            cout << "NO\n";
+    }
+
+    return 0;
+}
